@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5940963779572889626
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5940963779572889627}
+  - component: {fileID: 5940963779572889624}
+  m_Layer: 0
+  m_Name: Board
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5940963779572889627
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5940963779572889626}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.15, y: 1.15, z: 1.15}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -8.31, y: -3.5}
+  m_SizeDelta: {x: 1.6526, y: 1.6526}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5940963779572889624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5940963779572889626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9ad89d6c7a8a944926216036a262b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objSlotPrefab: {fileID: 4331740684695423920, guid: 6930479af348bd94984330dfd890f731, type: 3}
+  objAvailableTiles:
+  - {fileID: 1077568029392757292, guid: fc740bff5d9976f4986e5bf0c6626761, type: 3}
+  - {fileID: 1077568029392757292, guid: 8c8d9e8bdea4cb14b941674463881952, type: 3}
+  - {fileID: 1077568029392757292, guid: 411d9d978088a8a40a99a4bc6b9e1c26, type: 3}
+  - {fileID: 1077568029392757292, guid: aeed0d2c829c1bc4abcd35475c1b5d6a, type: 3}
+  - {fileID: 1077568029392757292, guid: 84f5876d289d8f2468d2b50f951cf015, type: 3}
+  - {fileID: 1077568029392757292, guid: c5e67ee54012a524483f1a46136565b3, type: 3}
+  - {fileID: 1077568029392757292, guid: 45a62aa74d2f2a044a6149893c22151d, type: 3}

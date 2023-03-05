@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4263724472649063990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 630512099321130283}
+  - component: {fileID: 1082851738535932563}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &630512099321130283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4263724472649063990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1082851738535932563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4263724472649063990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a7838a5dc2497489ea8f6cd6cb2e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sounds:
+  - Clip: {fileID: 8300000, guid: 37e8ea672f28d9c42b50241952e0005c, type: 3}
+    Name: click
+    SpatialBlend: 0
+    source: {fileID: 0}
+  - Clip: {fileID: 8300000, guid: 90773a812a7ac6e41a3d28c201cc3106, type: 3}
+    Name: roll
+    SpatialBlend: 0
+    source: {fileID: 0}
+  - Clip: {fileID: 8300000, guid: b33b578aaef451d40ad8495ffc5893bc, type: 3}
+    Name: pop
+    SpatialBlend: 0
+    source: {fileID: 0}
+  - Clip: {fileID: 8300000, guid: ebbf8aeef2dd0d74bac5769c01a83e90, type: 3}
+    Name: groupForm
+    SpatialBlend: 0
+    source: {fileID: 0}
+  - Clip: {fileID: 8300000, guid: 75366e515f4af90459f8862df025592c, type: 3}
+    Name: knowledgeBarFull
+    SpatialBlend: 0
+    source: {fileID: 0}
+  - Clip: {fileID: 8300000, guid: acc5273fea290064690602622bb1c569, type: 3}
+    Name: unlock
+    SpatialBlend: 0
+    source: {fileID: 0}
+  - Clip: {fileID: 8300000, guid: 60e63b7778290fe42b86939881c64521, type: 3}
+    Name: theme
+    SpatialBlend: 0
+    source: {fileID: 0}
+  - Clip: {fileID: 8300000, guid: 2f22653192f92a247a78d759081b5fc9, type: 3}
+    Name: rankUp
+    SpatialBlend: 0
+    source: {fileID: 0}
+  - Clip: {fileID: 8300000, guid: 9df22b7beb1fe764f903bc5dbd19ff90, type: 3}
+    Name: clickerson
+    SpatialBlend: 0
+    source: {fileID: 0}
+  MixerGroupVFX: {fileID: -1819391053710219885, guid: 385ee6b2e49eb4443afafd7e59a55e16, type: 2}
+  MixerGroupMusic: {fileID: 9084128030827976491, guid: 385ee6b2e49eb4443afafd7e59a55e16, type: 2}
+  MASTERMixer: {fileID: 24100000, guid: 385ee6b2e49eb4443afafd7e59a55e16, type: 2}
